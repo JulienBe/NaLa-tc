@@ -92,4 +92,5 @@ object Build : BuildType({
 object HttpsGerritOnapOrgRClampGitRefsHeadsMaster : GitVcsRoot({
     name = "https://gerrit.onap.org/r/clamp.git#refs/heads/master"
     url = "https://gerrit.onap.org/r/clamp.git"
+    branchSpec = "+:refs/changes/*"
 })
